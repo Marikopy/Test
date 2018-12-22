@@ -1,0 +1,41 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1545427375467' stop='1545427381543'>
+    <name>Page opening</name>
+    <title>Page opening</title>
+    <test-cases>
+        <test-case start='1545427375467' status='passed' stop='1545427381542'>
+            <name>get title</name>
+            <title>get title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["C:\\Users\\Marina\\WebstormProjects\\TestAutomation\\test\\test.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1545427375471' status='passed' stop='1545427376531'>
+                    <name>POST /wd/hub/session/d5e85b71f9eff28e51f2db3e083e9e23/url</name>
+                    <title>POST /wd/hub/session/d5e85b71f9eff28e51f2db3e083e9e23/url</title>
+                    <attachments>
+                        <attachment title='Request' source='97da2e78-f6c4-4966-9cc4-4b1d5b8d0ac9-attachment.json' type='application/json' size='45'/>
+                        <attachment title='Response' source='98b1317a-ba3a-48a9-99b1-2a3e769790ea-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1545427376531' status='passed' stop='1545427376542'>
+                    <name>GET /wd/hub/session/d5e85b71f9eff28e51f2db3e083e9e23/title</name>
+                    <title>GET /wd/hub/session/d5e85b71f9eff28e51f2db3e083e9e23/title</title>
+                    <attachments>
+                        <attachment title='Response' source='15183d76-f00d-4dce-b137-fd2d2838b178-attachment.json' type='application/json' size='100'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

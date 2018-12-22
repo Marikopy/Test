@@ -1,0 +1,126 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1545445647886' stop='1545445649316'>
+    <name>Page opening</name>
+    <title>Page opening</title>
+    <test-cases>
+        <test-case start='1545445647886' status='passed' stop='1545445648763'>
+            <name>get title</name>
+            <title>get title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["C:\\Users\\Marina\\WebstormProjects\\TestAutomation\\test\\test.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1545445647890' status='passed' stop='1545445648747'>
+                    <name>POST /wd/hub/session/f0da5e6cf9c33840c6b51be2a316f6a0/url</name>
+                    <title>POST /wd/hub/session/f0da5e6cf9c33840c6b51be2a316f6a0/url</title>
+                    <attachments>
+                        <attachment title='Request' source='21087e45-cf08-4540-b3a0-88568aeb9791-attachment.json' type='application/json' size='45'/>
+                        <attachment title='Response' source='b66492c5-6b85-4b4b-991f-f3e1c7005cf6-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1545445648747' status='passed' stop='1545445648761'>
+                    <name>GET /wd/hub/session/f0da5e6cf9c33840c6b51be2a316f6a0/title</name>
+                    <title>GET /wd/hub/session/f0da5e6cf9c33840c6b51be2a316f6a0/title</title>
+                    <attachments>
+                        <attachment title='Response' source='1b89aee7-ab80-4ab1-902c-bcc3a4c6e3ff-attachment.json' type='application/json' size='100'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1545445648764' status='passed' stop='1545445648828'>
+            <name>get header title</name>
+            <title>get header title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["C:\\Users\\Marina\\WebstormProjects\\TestAutomation\\test\\test.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1545445648765' status='passed' stop='1545445648797'>
+                    <name>POST /wd/hub/session/f0da5e6cf9c33840c6b51be2a316f6a0/elements</name>
+                    <title>POST /wd/hub/session/f0da5e6cf9c33840c6b51be2a316f6a0/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='df160805-dc50-4616-bfdc-a2271e519755-attachment.json' type='application/json' size='67'/>
+                        <attachment title='Response' source='0739bcea-747f-40ad-b81a-6cbd78dd672d-attachment.json' type='application/json' size='161'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1545445648798' status='passed' stop='1545445648825'>
+                    <name>GET /wd/hub/session/f0da5e6cf9c33840c6b51be2a316f6a0/element/0.22114419789321937-1/text</name>
+                    <title>GET /wd/hub/session/f0da5e6cf9c33840c6b51be2a316f6a0/element/0.22114419789321937-1/text</title>
+                    <attachments>
+                        <attachment title='Response' source='ec599f76-f3db-4329-b40c-3ed49c210a67-attachment.json' type='application/json' size='99'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1545445648828' status='passed' stop='1545445649315'>
+            <name>click registration button</name>
+            <title>click registration button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["C:\\Users\\Marina\\WebstormProjects\\TestAutomation\\test\\test.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1545445648829' status='passed' stop='1545445648854'>
+                    <name>POST /wd/hub/session/f0da5e6cf9c33840c6b51be2a316f6a0/element</name>
+                    <title>POST /wd/hub/session/f0da5e6cf9c33840c6b51be2a316f6a0/element</title>
+                    <attachments>
+                        <attachment title='Request' source='23474775-897b-4fd1-9d76-10063e9d59d7-attachment.json' type='application/json' size='50'/>
+                        <attachment title='Response' source='999cd941-4f6f-40a2-8620-2a30852c8a8f-attachment.json' type='application/json' size='137'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1545445648854' status='passed' stop='1545445649250'>
+                    <name>POST /wd/hub/session/f0da5e6cf9c33840c6b51be2a316f6a0/element/0.22114419789321937-2/click</name>
+                    <title>POST /wd/hub/session/f0da5e6cf9c33840c6b51be2a316f6a0/element/0.22114419789321937-2/click</title>
+                    <attachments>
+                        <attachment title='Response' source='8370d12d-b4ce-465a-8c7d-b886f8946186-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1545445649252' status='passed' stop='1545445649307'>
+                    <name>POST /wd/hub/session/f0da5e6cf9c33840c6b51be2a316f6a0/elements</name>
+                    <title>POST /wd/hub/session/f0da5e6cf9c33840c6b51be2a316f6a0/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='f1800bfa-be74-4adc-892a-0afb765d27e1-attachment.json' type='application/json' size='81'/>
+                        <attachment title='Response' source='27673bc0-28f6-40bf-8360-ec02c358132b-attachment.json' type='application/json' size='161'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1545445649307' status='passed' stop='1545445649315'>
+                    <name>GET /wd/hub/session/f0da5e6cf9c33840c6b51be2a316f6a0/element/0.22114419789321937-3/displayed</name>
+                    <title>GET /wd/hub/session/f0da5e6cf9c33840c6b51be2a316f6a0/element/0.22114419789321937-3/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='23af3734-232f-4daf-9b56-843b293ee4ab-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

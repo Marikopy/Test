@@ -1,0 +1,85 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1545439179600' stop='1545439180704'>
+    <name>Page opening</name>
+    <title>Page opening</title>
+    <test-cases>
+        <test-case start='1545439179600' status='passed' stop='1545439180241'>
+            <name>get title</name>
+            <title>get title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["C:\\Users\\Marina\\WebstormProjects\\TestAutomation\\test\\test.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1545439179604' status='passed' stop='1545439180229'>
+                    <name>POST /wd/hub/session/1f350a1d742faaf0d583d0fe54cff133/url</name>
+                    <title>POST /wd/hub/session/1f350a1d742faaf0d583d0fe54cff133/url</title>
+                    <attachments>
+                        <attachment title='Request' source='16054718-11e0-4261-8999-19bbdf9a4299-attachment.json' type='application/json' size='45'/>
+                        <attachment title='Response' source='cc709b47-3520-45b2-b877-a47ec87f3544-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1545439180230' status='passed' stop='1545439180240'>
+                    <name>GET /wd/hub/session/1f350a1d742faaf0d583d0fe54cff133/title</name>
+                    <title>GET /wd/hub/session/1f350a1d742faaf0d583d0fe54cff133/title</title>
+                    <attachments>
+                        <attachment title='Response' source='ffd3c9bd-174e-4dc5-b4c1-566b187cab9e-attachment.json' type='application/json' size='100'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1545439180242' status='failed' stop='1545439180703'>
+            <name>get header title</name>
+            <title>get header title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+                <parameter kind='environment-variable' name='capabilities' value='{"maxInstances":1,"browserName":"chrome"}'/>
+                <parameter kind='environment-variable' name='spec files' value='["C:\\Users\\Marina\\WebstormProjects\\TestAutomation\\test\\test.js"]'/>
+            </parameters>
+            <steps>
+                <step start='1545439180242' status='passed' stop='1545439180467'>
+                    <name>POST /wd/hub/session/1f350a1d742faaf0d583d0fe54cff133/elements</name>
+                    <title>POST /wd/hub/session/1f350a1d742faaf0d583d0fe54cff133/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='2fbe1209-aab3-4078-938a-208974d23e02-attachment.json' type='application/json' size='67'/>
+                        <attachment title='Response' source='d64876b3-bbc0-4b10-8ad6-ff3184c838f4-attachment.json' type='application/json' size='160'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1545439180467' status='passed' stop='1545439180701'>
+                    <name>GET /wd/hub/session/1f350a1d742faaf0d583d0fe54cff133/element/0.5679765965732886-1/text</name>
+                    <title>GET /wd/hub/session/1f350a1d742faaf0d583d0fe54cff133/element/0.5679765965732886-1/text</title>
+                    <attachments>
+                        <attachment title='Response' source='b9016039-f271-48fc-8a67-c9271b708fa2-attachment.json' type='application/json' size='99'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Title is incorrect</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: Title is incorrect
+                    at Context.&lt;anonymous> (C:\Users\Marina\WebstormProjects\TestAutomation\test\test.js:12:16)
+                    at C:\Users\Marina\WebstormProjects\TestAutomation\node_modules\wdio-sync\build\index.js:590:26
+                    at new Promise (&lt;anonymous>)
+                    at new F (C:\Users\Marina\WebstormProjects\TestAutomation\node_modules\core-js\library\modules\_export.js:36:28)
+                    at Context.executeSync (C:\Users\Marina\WebstormProjects\TestAutomation\node_modules\wdio-sync\build\index.js:588:12)
+                    at C:\Users\Marina\WebstormProjects\TestAutomation\node_modules\wdio-sync\build\index.js:759:42</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
